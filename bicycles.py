@@ -16,7 +16,7 @@ class Bicycle:
 
     def __repr__(self):
 
-        template = "The {0} | Cost: ${1}, Weight: {2}lbs"
+        template = "{0} | Cost: ${1}, Weight: {2}lbs"
         return template.format(self.model, self.cost, self.weight)
 
 class BikeShop:
